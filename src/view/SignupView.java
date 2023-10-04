@@ -78,7 +78,6 @@ public class SignupView extends JPanel implements ActionListener, PropertyChange
                     public void keyPressed(KeyEvent e) {
                     }
 
-<<<<<<< HEAD
             @Override
             public void keyReleased(KeyEvent e) {}
         });
@@ -113,12 +112,6 @@ public class SignupView extends JPanel implements ActionListener, PropertyChange
             public void keyReleased(KeyEvent e) {}
         });
 
-=======
-                    @Override
-                    public void keyReleased(KeyEvent e) {
-                    }
-                });
->>>>>>> 234fefe16398b2521904b5311d6529bcd607d1ee
         this.setLayout(new BoxLayout(this, BoxLayout.Y_AXIS));
 
         this.add(title);
